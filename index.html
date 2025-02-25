@@ -14,12 +14,59 @@
     </header>
     <nav>
         <ul>
-            <li><a href="https://Google.com">Link to Google</a></li>
-            <li><a href="https://canada.ca">Link to Canada.ca</a></li>
-            <li><a href="https://usa.gov">Link to USA.gov</a></li>
+            <li><a href="https://Google.com">Google</a></li>
+            <li><a href="https://canada.ca">Canada</a></li>
+            <li><a href="https://usa.gov">USA</a></li>
         </ul>
     </nav>
-    <p>This page contains deep of the author. Feel free to contact for more information!</p>
+    <!-- Using a Table for Displaying Data -->
+    <section>
+        <h2>Contact me</h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Postal Code</th>
+            </tr>
+            <tr>
+                <td>Unsure</td>
+                <td>Any amount</td>
+                <td>Any Quantity</td>
+            </tr>
+            <tr>
+                <td>Another thought</td>
+                <td>Another amount</td>
+                <td>Qty</td>
+            </tr>
+        </table>
+    </section>
+    
+    <!-- A Form to Collect User Data -->
+    <section>
+        <h2>Contact Us</h2>
+        <form action="/submit" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+    
+            <label for="message">Your thought:</label>
+            <textarea id="message" name="message"></textarea>
+    
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    
+    <!-- Embedding Media -->
+    <section>
+        <h2>Watch my Video</h2>
+        <video controls>
+            <source src="video.mp4" type="video/mp4">
+        </video>
+    </section>
+
+    <p>This page contains deep contributions from the author. Feel free to contact for more information!</p>
 </body>
 
 </html>
